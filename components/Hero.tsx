@@ -44,23 +44,24 @@ export const Hero = () => {
             className="uppercase tracking-widest text-xs
           text-center text-blue-100 max-w-80"
           >
-            Dynamic Web Magic with Next.js
+            Crafted with love using Next.js
           </h2>
           <TextGenerateEffect
             className=" text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Crafting Code, Creating Experiences"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Monica, A Software Engineer based in the Greater Seattle
-            Area.
+            Hi, I'm Monica, a Software Engineer in the Greater Seattle Area,
+            blending creativity with technology to craft intuitive and beautiful
+            user experiences.
           </p>
-          <a href="#about">
+          {/* <a href="#about">
             <MagicButton
               title=" Show my work"
               icon={<FaLocationArrow />}
               position="right"
             />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

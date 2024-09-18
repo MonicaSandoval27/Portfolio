@@ -12,9 +12,9 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Planning and  Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          description=""
+          title="Continuous Learning and Adaptability"
+          icon={<AceternityIcon order="Approach 1" />}
+          description="Staying updated and informed. Always open to learning new thing and expanding my horizons."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -22,9 +22,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development"
-          icon={<AceternityIcon order="Phase 2" />}
-          description=""
+          title="Collaboration and Communication"
+          icon={<AceternityIcon order="Approach 2" />}
+          description="Collaboration and communication foster teamwork, ensuring clear alignment and efficient progress toward shared development goals."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -37,9 +37,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development and Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          description=""
+          title="Testing and Debugging"
+          icon={<AceternityIcon order="Approach 3" />}
+          description="Testing and debugging ensure code reliability by identifying and resolving issues early, preventing bugs, and maintaining software quality"
         >
           <CanvasRevealEffect
             animationSpeed={3}

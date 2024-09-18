@@ -1,6 +1,6 @@
 export const navItems = [
     { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
+    // { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "Driven by a love for technology, I thrive on visualizing and bringing ideas to life through development.",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -18,18 +18,18 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Highly adaptable when it comes to communicating across different time zones",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
-      titleClassName: "justify-start",
+      titleClassName: "justify-start ",
       img: "",
       spareImg: "",
     },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
+      title: "My tools",
+      description: "Constantly learning and adding to my tool box.",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Lover of tech, jiu jitsu, coffee, and pottery.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -49,11 +49,11 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Currently sharpening my knowledge and honing my skills to push the boundaries of what's possible in tech.",
+      description: "",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
+      titleClassName: "justify-center md:justify-start lg:justify-top",
       img: "/b5.svg",
       spareImg: "/grid.svg",
     },
@@ -107,33 +107,21 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+       "Monica Sandoval worked for my company from 2021 - 2024 on two software projects, Robal and PC Medfolio. Monica's business background coupled with her learning speed made her an asset to our team. She can think strategically when developing and asks questions to ensure business needs will be met in the future as well as present. Monica also has the strength of working independently or in a team setting, what I also love about her is the wherewithal she displays to not only ask for feedback but to be shown how to do something in the future so she may do it herself. It is important to note, Monica worked under two different Directors while here and both praised her work. She was flexible in her abilities and was able to transition from our HR product to our Medical product seamlessly. I highly recommend her as an employee.",
+      name: "Courtney Morales Hofmann",
+      title: "CEO of Robal Tech",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Monica is an all-star and a rare find. From her commitment to communication, Monica always gave 110% to her work. She has shown time after time the ability to perform under pressure, hit tight deadlines, and work with diverse individuals. She is a strong independent colleague but just as strong as a team player. Monica learns quickly and takes on projects with excitement. She lead great discussions during our SCRUM stand-ups, planning, and retrospective meetings. She asked appropriate questions, gave/received critiques with professionalism, and proposed creative and new ideas when needed. It was a pleasure working and learning from Monica.",
+      name: "Harrison Janness Simon",
+      title: "Project Manager at Robal Tech",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      "Monica has been an important member at Robal Tech showing great learning skills as well a great team player, she has been part of building great solutions from backend to frontend, going from React/Javascript development to AWS Lambdas, Bulk Uploads, Onboarding Workflows, Documents Automation and DynamoDB and S3 Storage and so much more, applying serverless solutions and configuration helping on providing cloud technologies solutions, being a great valuable addition to any team and project, I highly recommend her as she always bring the best to the table, great ideas and skill set to provide great software solutions to clients.",
+      name: "Esteban Sosa",
+      title: "Senior Professional Service Delivery Coordinator | Azure Cloud Infrastructure Admin at Gainwell Technologies",
     },
   ];
   
@@ -141,63 +129,32 @@ export const navItems = [
     {
       id: 1,
       name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
-    },
-    {
-      id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
-    },
-    {
-      id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      img: "/robal.jpeg",
+      nameImg: "/robal.jpeg",
     },
   ];
   
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Cloud Engineer",
+      desc: "Designed and implemented a notification center within the system to proactively alert users of document updates, enabling real-time communication between system administrators and end users.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      title: "Jr. Cloud Engineer",
+      desc: "Created admin dashboard full stack to display onboarding analytics for business customers.",
+      className: "md:col-span-2",
+      thumbnail: "/exp4.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Full Stack Developer",
+      desc: "Engineered a survey management system with React and .NET Core, developing RESTful APIs and optimizing data retrieval with SQL stored procedures, complex joins, and UDTs to enhance database performance.",
+      className: "md:col-span-2", 
       thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
     },
   ];
   
@@ -205,13 +162,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-    },
-    {
-      id: 2,
-      img: "/twit.svg",
+      link:"https://github.com/MonicaSandoval27"
     },
     {
       id: 3,
       img: "/link.svg",
+      link:"https://www.linkedin.com/in/monicasandoval27/"
     },
   ];

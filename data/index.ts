@@ -18,8 +18,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Highly adaptable when it comes to communicating across different time zones",
-      description: "",
+      title: "",
+      description: "Highly adaptable when it comes to communicating across different time zones",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start ",

@@ -26,6 +26,15 @@ export const metadata: Metadata = {
     url: "https://monicasandoval.io/",
     siteName: "Monica's Portfolio",
     type: "website",
+    images: [
+      {
+        url: "/mon.jpeg",
+        secureUrl: "/mon.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Preview image for Monica Sandoval",
+      },
+    ],
   },
 };
 

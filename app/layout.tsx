@@ -19,6 +19,14 @@ export const metadata: Metadata = {
   description:
     "Hi, I'm Monica, a Software Engineer in the Greater Seattle Area, blending creativity with technology to craft intuitive and beautiful user experiences.",
   metadataBase: new URL("https://monicasandoval.io/"),
+  openGraph: {
+    title: "Monica's Portfolio",
+    description:
+      "Hi, I'm Monica, a Software Engineer in the Greater Seattle Area, blending creativity with technology to craft intuitive and beautiful user experiences.",
+    url: "https://monicasandoval.io/",
+    siteName: "Monica's Portfolio",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

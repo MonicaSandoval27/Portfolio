@@ -5,10 +5,10 @@ import { companies, testimonials } from "@/data";
 const Clients = () => {
   return (
     <section className="py-20" id="testimonials">
-      <h1 className="heading">
+      <p className="heading">
         Kind words from{" "}
         <span className="text-purple"> employers and coworkers</span>
-      </h1>
+      </p>
       <div className="flex flex-col items-center max-lg:mt-10">
         <InfiniteMovingCards
           items={testimonials}

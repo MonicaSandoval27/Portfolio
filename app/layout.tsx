@@ -19,7 +19,6 @@ export const metadata: Metadata = {
   description:
     "Hi, I&apos;m Monica, a Software Engineer in the Greater Seattle Area, blending creativity with technology to craft intuitive and beautiful user experiences.",
 };
-console.log(metadata);
 
 export default function RootLayout({
   children,

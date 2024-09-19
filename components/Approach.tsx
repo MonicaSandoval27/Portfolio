@@ -14,7 +14,7 @@ const Approach = () => {
         <Card
           title="Continuous Learning and Adaptability"
           icon={<AceternityIcon order="Approach 1" />}
-          description="Staying updated and informed. Always open to learning new thing and expanding my horizons."
+          description="Staying updated and informed. Always open to learning new things and expanding my horizons."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -39,7 +39,7 @@ const Approach = () => {
         <Card
           title="Testing and Debugging"
           icon={<AceternityIcon order="Approach 3" />}
-          description="Testing and debugging ensure code reliability by identifying and resolving issues early, preventing bugs, and maintaining software quality"
+          description="Testing and debugging ensure code reliability by identifying and resolving issues early, preventing bugs, and maintaining software quality."
         >
           <CanvasRevealEffect
             animationSpeed={3}

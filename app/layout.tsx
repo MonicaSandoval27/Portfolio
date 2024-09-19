@@ -14,11 +14,11 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
-  title: "Monica's Portfolio",
-  description:
-    "Hi, I&apos;m Monica, a Software Engineer in the Greater Seattle Area, blending creativity with technology to craft intuitive and beautiful user experiences.",
-};
+// export const metadata: Metadata = {
+//   title: "Monica's Portfolio",
+//   description:
+//     "Hi, I&apos;m Monica, a Software Engineer in the Greater Seattle Area, blending creativity with technology to craft intuitive and beautiful user experiences.",
+// };
 
 export default function RootLayout({
   children,
@@ -28,6 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>Monica's Portfolio</title>
+        <meta
+          name="description"
+          content="Hi, I'm Monica, a Software Engineer in the Greater Seattle Area, blending creativity with technology to craft intuitive and beautiful user experiences."
+        />
         <link
           rel="icon"
           type="image/png"

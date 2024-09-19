@@ -1,4 +1,4 @@
-// import type { Metadata } from "next";
+import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
@@ -14,11 +14,12 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-// export const metadata: Metadata = {
-//   title: "Monica's Portfolio",
-//   description:
-//     "Hi, I&apos;m Monica, a Software Engineer in the Greater Seattle Area, blending creativity with technology to craft intuitive and beautiful user experiences.",
-// };
+export const metadata: Metadata = {
+  title: "Monica's Portfolio",
+  description:
+    "Hi, I'm Monica, a Software Engineer in the Greater Seattle Area, blending creativity with technology to craft intuitive and beautiful user experiences.",
+  metadataBase: new URL("https://monicasandoval.io/"),
+};
 
 export default function RootLayout({
   children,
@@ -28,11 +29,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Monica&apos;s Portfolio</title>
-        <meta
-          name="description"
-          content="Hi, I'm Monica, a Software Engineer in the Greater Seattle Area, blending creativity with technology to craft intuitive and beautiful user experiences."
-        />
         <link
           rel="icon"
           type="image/png"

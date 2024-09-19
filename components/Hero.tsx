@@ -1,8 +1,8 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa";
+// import MagicButton from "./ui/MagicButton";
+// import { FaLocationArrow } from "react-icons/fa";
 
 export const Hero = () => {
   return (
@@ -51,9 +51,9 @@ export const Hero = () => {
             words="Crafting Code, Creating Experiences"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Monica, a Software Engineer in the Greater Seattle Area,
-            blending creativity with technology to craft intuitive and beautiful
-            user experiences.
+            Hi, I&apos;m Monica, a Software Engineer in the Greater Seattle
+            Area, blending creativity with technology to craft intuitive and
+            beautiful user experiences.
           </p>
           {/* <a href="#about">
             <MagicButton

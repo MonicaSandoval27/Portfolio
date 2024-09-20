@@ -36,6 +36,20 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    title: "Monica's Portfolio",
+    description:
+      "Hi, I'm Monica, a Software Engineer in the Greater Seattle Area, blending creativity with technology to craft intuitive and beautiful user experiences.",
+    images: [
+      {
+        url: "/mon.jpeg",
+        secureUrl: "/mon.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Preview image for Monica Sandoval",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
